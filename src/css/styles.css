@@ -12,4 +12,5 @@
 
 /* Sections style */
 @import url('./header.css');
+@import url('./vite-promo.css');
 @import url('./footer.css');
