@@ -2,17 +2,28 @@
 }
 .header-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 64px;
   background-color: #75d281;
-  padding-top: 14px;
 }
 .nav {
 }
 .nav_logo {
+  margin-right: 156px;
 }
 .nav-logo-icon {
   width: 84px;
   height: 36px;
 }
+
+.header-menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 .header-menu-icon {
+  width: 32px;
+  height: 32px;
+  fill: #030a06;
 }
