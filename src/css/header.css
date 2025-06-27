@@ -1,7 +1,10 @@
+header {
+}
+
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   height: 64px;
   width: 100%;
@@ -48,6 +51,10 @@
   pointer-events: auto;
 }
 
+.navbar-modal:not(.is-open) .modal-content {
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
 .modal-content {
   position: fixed;
   transform: translate(-50%);
@@ -63,7 +70,7 @@
   margin-bottom: 92px;
 }
 
-.header-container {
+.modal-header-container {
   position: relative;
   display: flex;
   align-items: center;
@@ -73,7 +80,7 @@
   margin-bottom: 14px;
 }
 
-.nav_logo {
+.modal-nav-logo {
   position: absolute;
   left: 20px;
   top: 14px;
