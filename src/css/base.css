@@ -2,9 +2,22 @@
   /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
   font-family: 'Fira Sans', 'Comfortaa' sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   font-weight: 400;
 
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(100%);
+  border: 0;
 }
