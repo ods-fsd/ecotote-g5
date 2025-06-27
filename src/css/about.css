@@ -1,0 +1,103 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    padding: 64px 16px;
+    width: 320px;
+    height: 348px;
+    background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-mob.jpg);
+}
+@media screen and (min-resolution: 2x) {
+    .about-section {
+        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-mob-x2.jpg);
+    }
+}
+
+
+.about-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.about-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.about-text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .about-section {
+        padding: 80px 32px;
+        width: 768px;
+        height: 325px;
+        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-tab.jpg);
+    }
+
+    @media screen and (min-resolution: 2x) {
+        .about-section {
+            background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-tab-x2.jpg);
+        }
+    }
+
+    .about-title {
+        margin-bottom: 16px;
+    }
+
+    .about-subtitle {
+        margin-bottom: 24px;
+    }
+
+    .about-text {
+        max-width: 573px;
+        max-height: 58px;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .about-section {
+        padding-top: 112px;
+        padding-bottom: 94px;
+
+        width: 1440px;
+        height: 462px;
+        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-nout.jpg);
+    }
+
+    @media screen and (min-resolution: 2x) {
+        .about-section {
+            background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-nout-x2.jpg);
+        }
+    }
+
+    .about-subtitle {
+        font-size: 56px;
+        width: 629px;
+        height: 134px;
+    }
+
+}
