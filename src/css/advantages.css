@@ -1,6 +1,11 @@
 /* SECTION advantages */
-.container-advantages {
+.advantages {
   background: #ebf8ed;
+  width: 100%;
+}
+
+.container-advantages {
+
   margin: 0;
   padding: 32px 16px;
 }
@@ -113,7 +118,7 @@
 
 /* SECTION advantages DESK */
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
   .container-advantages {
     max-width: 100%;
     padding: 64px;
