@@ -10,10 +10,8 @@
   padding: 32px 16px;
 }
 
-
-
 .subtitle-advantages {
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
   /* line-height: 24px; */
@@ -24,7 +22,7 @@
 }
 
 .title-advantages {
-  font-family: "Comfortaa", sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 36px;
   /* line-height: 43px; */
@@ -36,15 +34,13 @@
 }
 
 .advantages-text {
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   /* line-height: 26px; */
   line-height: 160%;
   color: #030a06;
-
 }
-
 
 .benefits-list {
   display: flex;
@@ -54,13 +50,11 @@
   width: 100%;
   max-width: 288px;
 
-
   padding-top: 48px;
 }
 
 .benefit-item {
   display: block;
-
 }
 
 .advantages-img {
@@ -77,13 +71,12 @@
   height: auto;
 }
 
-
 .benefit-item-container {
   margin-top: 8px;
 }
 
 .subtitle-benefit-item {
-  font-family: "Comfortaa", sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 24px;
   /* line-height: 34px; */
@@ -106,7 +99,6 @@
     font-size: 18px;
   }
 
-
   .benefits-list {
     display: flex;
     flex-wrap: wrap;
@@ -122,7 +114,6 @@
   .benefit-item-tab {
     width: 704px;
   }
-
 }
 
 /* SECTION advantages DESK */
@@ -134,12 +125,10 @@
   }
 
   .title-advantages {
-
     font-size: 48px;
   }
 
   .subtitle-benefit-item {
-
     font-size: 32px;
   }
 
@@ -147,9 +136,7 @@
     padding-bottom: 16px;
   }
 
-
   .benefits-list {
-
     max-width: 1314px;
     padding-top: 80px;
   }
@@ -165,5 +152,4 @@
   .title-advantages {
     padding-bottom: 24px;
   }
-
 }

@@ -1,12 +1,12 @@
 <header class="header">
   <div class="header-container">
     <nav class="nav">
-      <a class="nav_logo" href="/src/index.html" target="_blank">
+      <a class="nav-logo" href="/src/index.html" target="_blank">
         <svg class="nav-logo-icon">
           <use href="../img/icons.svg#icon-logo"></use>
         </svg>
       </a>
-      <button class="header-menu-button" type="button">
+      <button class="header-menu-button" type="button" data-menu-open>
         <svg class="header-menu-icon">
           <use href="../img/icons.svg#icon-burger"></use>
         </svg>
@@ -15,16 +15,20 @@
   </div>
 
   <!-- modal window -->
+
   <div class="navbar-modal">
+
+  <div class="navbar-modal" data-menu>
+
     <div class="modal-content">
-      <div class="header-container">
+      <div class="modal-header-container">
         <nav class="nav">
-          <a class="nav_logo" href="/src/index.html" target="_blank">
+          <a class="modal-nav-logo" href="/src/index.html" target="_blank">
             <svg class="nav-logo-icon">
               <use href="../img/icons.svg#icon-logo"></use>
             </svg>
           </a>
-          <button class="modal-close-btn" type="button">
+          <button class="modal-close-btn" type="button" data-menu-close>
             <svg class="modal-close-icon">
               <use href="../img/icons.svg#icon-close"></use>
             </svg>
@@ -54,6 +58,7 @@
             </li>
           </ul>
         </nav>
+
         <address>
           <a class="modal-menu-link" href="tel:+380999091122"
             >+38 (099) 909 11 22</a
@@ -62,7 +67,16 @@
             >hello@ecotote.com</a
           >
         </address>
+
       </div>
+      <address>
+        <div class="modal-address">
+          <ul class="modal-address-list">
+            <li><a class="modal-menu-link" href="tel:+380999091122">+38 (099) 909 11 22</a></li>
+            <li><a class="modal-menu-link" href="mailto:hello@ecotote.com">hello@ecotote.com</a> </li>
+          </ul>
+        </div>
+      </address>
     </div>
   </div>
 </header>
