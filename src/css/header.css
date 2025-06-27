@@ -1,7 +1,7 @@
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   height: 64px;
   width: 100%;
@@ -9,7 +9,7 @@
   padding-top: 14px;
 }
 
-.nav_logo {
+.nav-logo {
   margin-right: 156px;
 }
 .nav-logo-icon {
@@ -20,8 +20,9 @@
 .header-menu-button {
   background-color: transparent;
   border: none;
-  cursor: pointer;
+  padding: 8px;
 }
+
 .header-menu-icon {
   width: 32px;
   height: 32px;
@@ -84,9 +85,13 @@
 }
 
 .modal-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   position: absolute;
-  top: 8px;
-  right: 12px;
+  top: 16px;
+  right: 20px;
   padding: 8px;
 
   background-color: transparent;
@@ -96,6 +101,7 @@
 .modal-close-icon {
   width: 32px;
   height: 32px;
+  fill: #030a06;
 }
 .modal-menu {
   padding: 32px 20px;
