@@ -1,0 +1,119 @@
+img {
+  border-radius: 32px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.gallery {
+  background: #ebf8ed;
+  padding: 32px 0;
+  width: 320px;
+  margin: 0 auto;
+}
+.gallery-title {
+  font-family: 'comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 16px;
+}
+.gallery-subtitle {
+  font-family: 'fira sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
+}
+.gallery-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .gallery {
+    width: 768px;
+    padding: 64px 0;
+  }
+  .gallery-title {
+    margin-bottom: 24px;
+  }
+  .gallery-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    justify-content: center;
+    width: 768px;
+    margin: 0 auto;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .gallery-item.bag {
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
+  .gallery-item.man {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .gallery-item.park {
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .gallery {
+    width: 1440px;
+    padding: 64px 0;
+  }
+  .gallery-item {
+    padding: 0;
+  }
+
+  .gallery-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(421px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    justify-content: center;
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .gallery-item.bag {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .gallery-item.man {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .gallery-item.park {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+}
