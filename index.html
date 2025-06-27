@@ -6,8 +6,17 @@
   <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EcoTote</title>
+
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fira+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+
   <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-C7Jp4vqU.css">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-DrPov_CI.css">
 </head>
 
 <body>
@@ -28,13 +37,54 @@
   </div>
 
   <!-- modal window -->
-  <div class="modal">
+  <div class="navbar-modal is-open">
     <div class="modal-content">
-      <button class="modal-close-button" type="button">
-        <svg class="modal-close-icon">
-          <use href="../img/icons.svg#icon-close"></use>
-        </svg>
-      </button>
+      <div class="header-container">
+        <nav class="nav">
+          <a class="nav_logo" href="/src/index.html" target="_blank">
+            <svg class="nav-logo-icon">
+              <use href="../img/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <button class="modal-close-btn" type="button">
+            <svg class="modal-close-icon">
+              <use href="../img/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+      <div class="modal-menu">
+        <nav>
+          <ul class="modal-menu-list">
+            <li class="modal-menu-item">
+              <a class="modal-menu-link" href="/src/index.html">Про нас</a>
+            </li>
+            <li class="modal-menu-item">
+              <a class="modal-menu-link" href="/src/index.html">Переваги</a>
+            </li>
+            <li class="modal-menu-item">
+              <a class="modal-menu-link" href="/src/index.html">Асортимент</a>
+            </li>
+            <li class="modal-menu-item">
+              <a class="modal-menu-link" href="/src/index.html">Галерея</a>
+            </li>
+            <li class="modal-menu-item">
+              <a class="modal-menu-link" href="/src/index.html">Відгуки</a>
+            </li>
+            <li class="modal-menu-item">
+              <a class="modal-menu-link" href="/src/index.html">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <a class="modal-menu-link" href="tel:+380999091122">+38 (099) 909 11 22</a>
+          <a class="modal-menu-link" href="mailto:hello@ecotote.com">hello@ecotote.com</a>
+        </address>
+      </div>
+    </div>
+  </div>
+
+
 
 
 </header>
