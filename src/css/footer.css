@@ -1,28 +1,29 @@
 .footer {
 
   display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 320px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 320px;
   width: 100%;
   background-color: #75d281;
 }
 
 .footer-container {
   display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-   max-width: 280px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 280px;
   padding: 48px 20px;
 
 }
 .footer-nav {
   display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .footer-logo {
 margin-bottom: 48px;
@@ -30,38 +31,72 @@ margin-bottom: 48px;
 
 .footer-logo-icon {
   width: 281px;
-    height: 121px;
+  height: 121px;
 }
 
 .footer-menu-list {
   display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   row-gap: 32px;
   max-width: 88px;
   font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #030a06;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+  margin-bottom: 48px;
 }
 
-.footer-menu-item {}
+.footer-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
 
-.footer-menu-link {}
+.footer-media-item {
+  width: 32px;
+  height: 32px;
+   
+}
 
-.footer-media-list {}
+.footer-media-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+    
+}
 
-.footer-media-item {}
+.footer-media-icon {
+  width: 24px;
+  height: 24px;
+  fill: #030a06;
+}
 
-.footer-media-link {}
+.horizontal-rule {
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  width: 280px;
+  height: 0px;
+}
 
-.footer-media-icon {}
+.footer-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px 0;
+  gap: 16px;
 
-.horizontal-rule {}
+}
 
-.footer-address {}
 
-.footer-address-item {}
-
-.footer-copyright {}
+.footer-copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #030a06;
+}
