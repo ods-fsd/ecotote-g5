@@ -42,11 +42,14 @@
   font-size: 16px;
   line-height: 1.6;
   color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  opacity: 0.5;
+  background-color: transparent;
+  color: #030a06;
 }
 
 .picture-box {
