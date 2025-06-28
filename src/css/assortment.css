@@ -1,0 +1,142 @@
+/* === Mobile === */
+.section-assortment {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/*? Заголовок секції */
+.section-assortment-subtitle {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
+}
+
+/*? Список товарів */
+.assortment-item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/*? Картка товару */
+.assortment-item {
+  width: 288px;
+}
+
+/*? Картинка товару */
+.assortment-img {
+  border-radius: 32px;
+  width: 100%; /* !ТЕСТ */
+  object-fit: cover; /* !ТЕСТ */
+}
+
+/*? Назва-опис-ціна */
+.assortment-product-det {
+  padding: 16px 0;
+}
+
+/*? Назва товару */
+.assortment-product-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+}
+
+/*? Опис товару */
+.assortment-product-descript {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 8px;
+}
+
+/*? Ціна товару */
+.assortment-product-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  display: block;
+}
+/*? Кнопка Купити */
+.assortment-product-btm {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 8px 0;
+  width: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.assortment-product-btm:hover,
+.assortment-product-btm:focus {
+  background-color: #030a06;
+  color: #fff;
+}
+
+/* === Tablet === */
+@media (min-width: 768px) {
+  .section-assortment {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  /*? Список товарів */
+  .assortment-item-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  /*? Картка товару */
+  .assortment-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*! Назва-опис-ціна */
+  .det-mod {
+    min-height: 145.58px;
+  }
+}
+
+/* === Desktop === */
+@media (min-width: 1440px) {
+  /*? Заголовок секції */
+  .section-assortment-subtitle {
+    font-size: 48px;
+  }
+
+  /*? Список товарів */
+  .assortment-item-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  /*? Картка товару */
+  .assortment-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  /*! Назва-опис-ціна */
+  .kid-mod {
+    min-height: 145.58px;
+  }
+}
