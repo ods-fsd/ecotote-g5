@@ -1,15 +1,10 @@
-img {
+.gallery-images {
   border-radius: 32px;
   display: block;
   width: 100%;
   height: auto;
 }
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
+
 .gallery {
   background: #ebf8ed;
   padding: 32px 0;
