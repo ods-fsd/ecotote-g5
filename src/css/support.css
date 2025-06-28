@@ -1,0 +1,190 @@
+
+/* screen 320px */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.support {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* заголовки */
+
+.support-title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #212121;
+
+    margin-bottom: 24px;
+}
+
+.support-subtitle {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #030a06;
+
+    margin-bottom: 32px;
+}
+
+/* форма */
+
+.support-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.support-form-label {
+    font-family: "Fira Sans", sans-serif;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+
+    margin-bottom: 8px;
+}
+
+.support-form-input {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 42px;
+    border: 1px solid rgba(3, 10, 6, 0.15);
+    border-radius: 6px;
+    background-color: rgba(3, 10, 6, 0.05);
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
+
+.support-form-input:focus,
+.form-message:focus {
+    border: 2px solid rgba(17, 57, 22, 0.6);
+    outline: none;
+}
+
+.support-form-input::placeholder,
+.form-message::placeholder {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(3, 10, 6, 0.6);
+}
+
+.support-form-input:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+/* невалідний інпут */
+
+.support-form-input:not(:placeholder-shown):invalid,
+.form-message:not(:placeholder-shown):invalid {
+    border-color: #d64040;
+    margin-bottom: 0;
+    color: #d64040;
+    box-shadow: none;
+}
+
+.text-invalid {
+    display: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #d64040;
+}
+
+.support-form-input:not(:placeholder-shown):invalid~.text-invalid,
+.form-message:not(:placeholder-shown):invalid~.text-invalid {
+    display: block;
+    margin-bottom: 4.7px;
+}
+
+.support-form-input:focus::placeholder,
+.form-message:focus::placeholder {
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* текстареа */
+
+.form-message {
+    width: 100%;
+    resize: none;
+    height: 180px;
+    margin-bottom: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid rgba(3, 10, 6, 0.15);
+    border-radius: 6px;
+    background-color: rgba(3, 10, 6, 0.05);
+
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
+
+/* кнопка форми */
+
+.support-form-button {
+    font-family: "Fira Sans", sans-serif;
+
+    width: 288px;
+    height: 50px;
+    border: 1px solid #030a06;
+    background-color: #030a06;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    display: block;
+    margin: 0 auto;
+}
+
+.support-form-button:hover,
+.support-form-button:focus {
+    background-color: transparent;
+    color: #030a06;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* картинка */
+
+.support-background {
+    max-width: 288px;
+    height: 428px;
+    margin: 0 auto;
+    background-image: url(../images/support-mob-1x.jpg);
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-resolution: 2x) {
+    .support-background {
+        background-image: url(../images/support-mob-2x.jpg);
+    }
+}
