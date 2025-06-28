@@ -1,9 +1,3 @@
-.hero {
-  padding-top: 64px;
-  padding-bottom: 64px;
-  background-color: #ebf8ed;
-}
-
 .hero-container {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -67,18 +61,15 @@
 .picture-box img.hero-images {
   border-radius: 40px;
   overflow: hidden;
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .hero {
-    padding-top: 32px;
-  }
-
   .container {
     max-width: 768px;
+  }
+
+  .hero-container {
+    padding-top: 32px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -124,6 +115,9 @@
 @media only screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+  }
+
+  .hero-container {
     padding-left: 64px;
     padding-right: 64px;
   }
