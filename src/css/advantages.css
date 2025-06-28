@@ -63,12 +63,7 @@
   /* або inline-block */
 }
 
-.advantages-img img {
-  border-radius: 32px;
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 
 .benefit-item-container {
   margin-top: 8px;
