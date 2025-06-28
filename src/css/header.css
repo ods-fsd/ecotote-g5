@@ -6,7 +6,7 @@
   height: 64px;
   width: 100%;
   background-color: #75d281;
-  padding-top: 14px;
+  padding: 0 20px;
 }
 
 .nav-logo {
@@ -75,13 +75,19 @@
   justify-content: space-between;
   width: 320px;
   height: 64px;
-  margin-bottom: 14px;
+  padding-bottom: 14px;
 }
 
-.modal-nav-logo {
+/* .modal-nav-logo {
   position: absolute;
   left: 20px;
   top: 14px;
+} */
+.modal-nav-logo {
+  width: 84px;
+  height: 36px;
+  margin-left: 20px;
+  margin-top: 14px;
 }
 
 .modal-close-btn {
