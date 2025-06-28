@@ -7,8 +7,6 @@
 
 .gallery {
   padding: 32px 0;
-  width: 320px;
-  margin: 0 auto;
 }
 .gallery-title {
   font-family: 'comfortaa', sans-serif;
@@ -41,7 +39,6 @@
     max-width: 768px;
   }
   .gallery {
-    width: 768px;
     padding: 64px 0;
   }
   .gallery-title {
@@ -80,7 +77,6 @@
     max-width: 1440px;
   }
   .gallery {
-    width: 1440px;
     padding: 64px 0;
   }
   .gallery-item {
