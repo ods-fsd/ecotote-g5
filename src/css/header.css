@@ -1,11 +1,6 @@
-.header {
-  max-width: 320px;
-  margin: 0 auto;
-  background-color: #75d281;
-}
-
 .header-container {
   padding: 0px 12px 0px 20px;
+  background-color: #75d281;
 }
 
 .nav {
