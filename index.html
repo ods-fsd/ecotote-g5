@@ -16,7 +16,7 @@
     rel="stylesheet">
 
   <script type="module" crossorigin src="/ecotote-g5/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/ecotote-g5/assets/index-BcK80h6c.css">
+  <link rel="stylesheet" crossorigin href="/ecotote-g5/assets/index-2DdIFEz3.css">
 </head>
 
 <body>
@@ -92,23 +92,46 @@
 
   <main>
     <section class="hero">
-  <div class="container">
+  <div class="container hero-container">
     <div class="hero-text-container">
-      <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті.</h1>
-      <p class="hero-text">
-        Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
-        відповідальність разом з EcoTote.
-      </p>
-      <button class="hero-button" type="button" id="assortment">
-        Купити зараз
-      </button>
+      <h1 class="hero-title">
+        EcoTote — Стиль, що не шкодить планеті<span class="hover-dot">.</span>
+      </h1>
+      <div class="hero-right">
+        <p class="hero-text">
+          Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+          відповідальність разом з EcoTote.
+        </p>
+        <a href="#assortment">
+          <button class="hero-button" type="button">Купити зараз</button>
+        </a>
+      </div>
     </div>
-    <div class="hero-images-container">
-      <img class="hero-image" srcset="../img/hero/hero-1x.jpg 1x, ../img/hero/hero-2x.jpg 2x" src="../img/hero/hero.jpg"
-        width="1312" height="498" alt="women's bags and bicycle" />
+    <div class="picture-box">
+      <picture>
+        <source
+          srcset="../img/hero/hero-1x.jpg 1x, ../img/hero/hero-2x.jpg 2x"
+          media="(min-width: 1312px)"
+        />
+        <source
+          srcset="../img/hero/hero-tabl-1x.jpg 1x, ../img/hero/hero-tabl-2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="../img/hero/hero-mobile-1x.jpg 1x, ../img/hero/hero-mobile-2x.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          class="hero-images"
+          src="../img/hero/hero.jpg"
+          width="1312"
+          alt="women's bags and bicycle"
+        />
+      </picture>
     </div>
   </div>
 </section>
+
     <section class="container about-section">
   <h2 class="about-title">Природність</h2>
   <h3 class="about-subtitle">Турбота про планету</h3>
