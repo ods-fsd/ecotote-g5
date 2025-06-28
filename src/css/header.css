@@ -1,10 +1,11 @@
+.header-class {
+  width: 100%;
+  height: auto;
+  background-color: #75d281;
+}
+
 .header-container {
   padding: 0px 12px 0px 20px;
-  background-color: #75d281;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .nav {
@@ -22,6 +23,7 @@
   padding: 0;
   background: transparent;
   border: none;
+  padding: 8px;
 }
 
 .burger-btn-icon {
@@ -68,6 +70,7 @@
   padding: 0;
   background: transparent;
   border: none;
+  padding: 8px;
 }
 .modal-close-icon {
   width: 32px;
@@ -77,11 +80,11 @@
   fill: #030a06;
 }
 
-.modal-menu {
+.modal-header-menu {
   padding: 32px 20px;
   margin-bottom: 32px;
 }
-.modal-menu-list {
+.modal-header-menu-list {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -89,13 +92,13 @@
   gap: 32px;
 }
 
-.modal-address {
+.modal-header-address {
   padding: 32px 16px 0px 16px;
   width: 320px;
   margin-bottom: 92px;
 }
 
-.modal-address-list {
+.modal-header-address-list {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -103,21 +106,73 @@
   gap: 16px;
 }
 
+.header-menu-list {
+  display: none;
+}
+.header-address-list {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .header-container {
-    padding: 0px 32px;
+    padding: 0px 16px 0px 32px;
   }
   .nav-logo {
-    margin: 24px 0;
-  }
-  .burger-btn-icon {
-    width: 40px;
-    height: 40px;
-  }
-  .navbar-modal {
-    background-color: #ebf8ed;
+    margin: 14px 0;
   }
   .modal-content {
     max-width: 768px;
+  }
+  .header-menu-list {
+    display: none;
+  }
+  .header-address-list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .burger-btn {
+    display: none;
+  }
+
+  .header-container {
+    padding: 14px 64px;
+  }
+
+  .nav-logo {
+    margin: 0;
+    display: block;
+    width: 106px;
+    height: 45px;
+  }
+
+  .nav-logo-icon {
+    width: 106px;
+    height: 45px;
+  }
+
+  .header-menu-item:focus,
+  .header-menu-item:hover {
+    color: #113916;
+  }
+
+  .header-address-item:focus,
+  .header-address-item:hover {
+    color: #113916;
+  }
+
+  .header-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .header-address-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
   }
 }
