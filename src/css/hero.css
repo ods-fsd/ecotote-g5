@@ -10,13 +10,6 @@
   background-color: #ebf8ed;
 }
 
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
-
 .hero-text-container {
   max-width: 288px;
   margin: 0 auto;
