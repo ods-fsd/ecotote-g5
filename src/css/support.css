@@ -175,7 +175,7 @@
   max-width: 288px;
   height: 428px;
   margin: 0 auto;
-  background-image: url(../images/support-mob-1x.jpg);
+  background-image: url(../img/support/support-mob-1x.jpg);
   border-radius: 40px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@
 
 @media screen and (min-resolution: 2x) {
   .support-background {
-    background-image: url(../images/support-mob-2x.jpg);
+    background-image: url(../img/support/support-mob-2x.jpg);
   }
 }
 
@@ -208,12 +208,12 @@
 
   .support-background {
     width: 704px;
-    background-image: url(../images/support-tab-1x.jpg);
+    background-image: url(../img/support/support-tab-1x.jpg);
   }
 
   @media screen and (min-resolution: 2x) {
     .support-background {
-      background-image: url(../images/support-tab-2x.jpg);
+      background-image: url(../img/support/support-tab-2x.jpg);
     }
   }
 }
@@ -235,14 +235,14 @@
   .support-background {
     width: 644px;
     height: 767px;
-    background-image: url(../images/support-dt-1x.jpg);
+    background-image: url(../img/support/support-dt-1x.jpg);
     flex-shrink: 0;
     margin: 0 0 0 24px;
   }
 
   @media screen and (min-resolution: 2x) {
     .support-background {
-      background-image: url(../images/support-dt-2x.jpg);
+      background-image: url(../img/support/support-tab-2x.jpg);
       flex-shrink: 0;
     }
   }
