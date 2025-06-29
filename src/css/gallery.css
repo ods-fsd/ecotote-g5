@@ -50,10 +50,7 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 24px;
     justify-content: center;
-    width: 768px;
     margin: 0 auto;
-    padding-right: 32px;
-    padding-left: 32px;
   }
 
   .gallery-item.bag {
@@ -88,7 +85,6 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 24px;
     justify-content: center;
-    width: 1440px;
     margin: 0 auto;
   }
   .gallery-item.bag {
