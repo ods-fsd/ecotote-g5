@@ -16,7 +16,13 @@
 
 .nav-logo {
   margin: 14px 0;
+  display: flex;
+}
+
+.nav-logo-icon {
   display: block;
+  width: 84px;
+  height: 36px;
 }
 
 .burger-btn {
@@ -137,20 +143,16 @@
   }
 
   .header-container {
-    padding: 14px 64px;
-  }
-
-  .nav-logo {
-    margin: 0;
-    display: block;
-    width: 106px;
-    height: 45px;
+    padding: 0 64px;
   }
 
   .nav-logo-icon {
     width: 106px;
     height: 45px;
   }
+
+  /* .header-menu-item {
+  } */
 
   .header-menu-item:focus,
   .header-menu-item:hover {
@@ -167,6 +169,7 @@
     align-items: center;
     justify-content: center;
     gap: 32px;
+    padding: 23px 0;
   }
 
   .header-address-list {
