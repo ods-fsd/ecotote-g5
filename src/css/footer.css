@@ -1,16 +1,14 @@
 .footer {
-  padding: 48px;
+  padding-top: 48px;
+  padding-bottom: 64px;
   background-color: #75d281;
 
 }
-/* .footer-container {
-  display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 48px;
+.footer-container {
+padding-left: 20px;
+padding-right: 20px;
 
-} */
+}
 .footer-nav {
   display: flex;
   align-items: center;
