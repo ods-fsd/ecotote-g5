@@ -152,14 +152,19 @@
     height: 45px;
   }
 
+  .nav-logo-icon:focus,
+  .nav-logo-icon:hover {
+    opacity: 0.5;
+  }
+
   .header-menu-item:focus,
   .header-menu-item:hover {
-    color: #113916;
+    opacity: 0.5;
   }
 
   .header-address-item:focus,
   .header-address-item:hover {
-    color: #113916;
+    opacity: 0.5;
   }
 
   .header-menu-list {
