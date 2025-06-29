@@ -152,9 +152,6 @@
     height: 45px;
   }
 
-  /* .header-menu-item {
-  } */
-
   .header-menu-item:focus,
   .header-menu-item:hover {
     color: #113916;
