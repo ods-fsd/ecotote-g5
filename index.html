@@ -727,6 +727,67 @@
   </div>
 </section>
 
+    <section id="support" class="support">
+  <div class="container">
+    <div class="support-form-photo">
+      <div class="support-content">
+        <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+        <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
+
+        <form class="support-form">
+          <div class="support-label-input">
+            <label for="user-name" class="support-form-label">Ім'я</label>
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              class="support-form-input"
+              placeholder="Іван"
+              required
+              minlength="5"
+              maxlength="64"
+            />
+            <p class="text-invalid">Error text</p>
+          </div>
+
+          <div class="support-label-input">
+            <label for="user-email" class="support-form-label"
+              >Електронна пошта</label
+            >
+            <input
+              type="email"
+              name="user-email"
+              id="user-email"
+              class="support-form-input"
+              placeholder="hello@ecotote.com"
+              required
+              pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            />
+            <p class="text-invalid">Error text</p>
+          </div>
+
+          <label for="message" class="support-form-label">Повідомлення</label>
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              class="form-message"
+              placeholder="Введіть своє повідомлення..."
+              maxlength="500"
+              required
+            ></textarea>
+            <p class="text-invalid">Error text</p>
+          </div>
+
+          <button type="submit" class="support-form-button">Надіслати</button>
+        </form>
+      </div>
+
+      <div class="support-background"></div>
+    </div>
+  </div>
+</section>
+
     <footer class="footer">
   <div class="container">
     <nav class="footer-nav">
