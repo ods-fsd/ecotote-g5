@@ -1,4 +1,4 @@
-.hero-container {
+.hero {
   padding-top: 64px;
   padding-bottom: 64px;
   background-color: #ebf8ed;
@@ -67,10 +67,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .hero-container {
+  .hero {
     padding-top: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   .hero-text-container {
@@ -91,7 +89,6 @@
 
   .hero-right {
     margin-left: auto;
-    max-width: 340px;
   }
 
   .hero-text {
@@ -112,29 +109,20 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .hero-container {
-    padding-left: 64px;
-    padding-right: 64px;
-  }
-
   .hero-title {
-    max-width: 537px;
+    max-width: 640px;
     font-size: 56px;
   }
 
   .hero-text-container {
     max-width: 1312px;
     margin-bottom: 20px;
-  }
-
-  .hero-right {
-    max-width: 640px;
-    margin-bottom: 161px;
+    gap: 32px;
   }
 
   .hero-text {
     font-size: 18px;
-    max-width: 586px;
+    max-width: 640px;
   }
 
   .picture-box {
