@@ -16,7 +16,7 @@
     rel="stylesheet">
 
   <script type="module" crossorigin src="/ecotote-g5/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/ecotote-g5/assets/index-CDBaQFD4.css">
+  <link rel="stylesheet" crossorigin href="/ecotote-g5/assets/index-CVv-17wL.css">
 </head>
 
 <body>
@@ -682,47 +682,55 @@
 
         <form class="support-form">
           <div class="support-label-input">
-            <label for="user-name" class="support-form-label">Ім'я</label>
-            <input
-              type="text"
-              name="user-name"
-              id="user-name"
-              class="support-form-input"
-              placeholder="Іван"
-              required
-              minlength="5"
-              maxlength="64"
-            />
-            <p class="text-invalid">Enter your name, min 5 letters</p>
+            <div class="cont-ivalid-text">
+              <label for="user-name" class="support-form-label">Ім'я</label>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="support-form-input"
+                placeholder="Іван"
+                required
+                minlength="5"
+                maxlength="64"
+              />
+              <p class="text-invalid">Enter your name, min 5 letters</p>
+            </div>
           </div>
 
           <div class="support-label-input">
-            <label for="user-email" class="support-form-label"
-              >Електронна пошта</label
-            >
-            <input
-              type="email"
-              name="user-email"
-              id="user-email"
-              class="support-form-input"
-              placeholder="hello@ecotote.com"
-              required
-              pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-            />
-            <p class="text-invalid">Incorrect email</p>
+            <div class="cont-ivalid-text">
+              <label for="user-email" class="support-form-label"
+                >Електронна пошта</label
+              >
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                class="support-form-input"
+                placeholder="hello@ecotote.com"
+                required
+                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+              />
+              <p class="text-invalid">Incorrect email</p>
+            </div>
           </div>
 
           <div class="support-label-input">
-            <label for="message" class="support-form-label">Повідомлення</label>
-            <textarea
-              name="message"
-              id="message"
-              class="form-message"
-              placeholder="Введіть своє повідомлення..."
-              maxlength="500"
-              required
-            ></textarea>
-            <p class="text-invalid">Max 500 symbols</p>
+            <div class="cont-ivalid-text">
+              <label for="message" class="support-form-label"
+                >Повідомлення</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                class="form-message"
+                placeholder="Введіть своє повідомлення..."
+                maxlength="500"
+                required
+              ></textarea>
+              <p class="text-invalid">Max 500 symbols</p>
+            </div>
           </div>
 
           <button type="submit" class="support-form-button">Надіслати</button>
