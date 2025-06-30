@@ -16,7 +16,7 @@
     rel="stylesheet">
 
   <script type="module" crossorigin src="/ecotote-g5/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/ecotote-g5/assets/index-DuBddnXi.css">
+  <link rel="stylesheet" crossorigin href="/ecotote-g5/assets/index-DlwmvFzA.css">
 </head>
 
 <body>
@@ -678,7 +678,7 @@
     <div class="support-form-photo">
       <div class="support-content">
         <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
-        <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
+        <p class="support-subtitle">Ми тут, щоб допомогти!</p>
 
         <form class="support-form">
           <div class="support-label-input">
@@ -693,7 +693,7 @@
               minlength="5"
               maxlength="64"
             />
-            <p class="text-invalid">Error text</p>
+            <p class="text-invalid">Enter your name, min 5 letters</p>
           </div>
 
           <div class="support-label-input">
@@ -709,11 +709,11 @@
               required
               pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             />
-            <p class="text-invalid">Error text</p>
+            <p class="text-invalid">Incorrect email</p>
           </div>
 
-          <label for="message" class="support-form-label">Повідомлення</label>
-          <div>
+          <div class="support-label-input">
+            <label for="message" class="support-form-label">Повідомлення</label>
             <textarea
               name="message"
               id="message"
@@ -722,7 +722,7 @@
               maxlength="500"
               required
             ></textarea>
-            <p class="text-invalid">Error text</p>
+            <p class="text-invalid">Max 500 symbols</p>
           </div>
 
           <button type="submit" class="support-form-button">Надіслати</button>
