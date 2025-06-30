@@ -16,86 +16,81 @@
     rel="stylesheet">
 
   <script type="module" crossorigin src="/ecotote-g5/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/ecotote-g5/assets/index-ByUSLxVJ.css">
+  <link rel="stylesheet" crossorigin href="/ecotote-g5/assets/index-DEv_-reh.css">
 </head>
 
 <body>
 
   <header class="header-class">
   <div class="container header-container">
+
     <nav class="nav">
       <a class="nav-logo" href="">
         <svg class="nav-logo-icon">
           <use href="/ecotote-g5/img/logo.svg#icon-logo"></use>
         </svg>
       </a>
-
-      <div class="header-menu">
-        <nav>
-          <ul class="header-menu-list">
-            <li><a class="header-menu-item" href="#about">Про нас</a></li>
-            <li><a class="header-menu-item" href="#advantages">Переваги</a></li>
-            <li><a class="header-menu-item" href="#assortment">Асортимент</a></li>
-            <li><a class="header-menu-item" href="#gallery">Галерея</a></li>
-            <li><a class="header-menu-item" href="#feedbacks">Відгуки</a></li>
-            <li><a class="header-menu-item" href="#support">Контакти</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="header-address">
-        <address>
-          <ul class="header-address-list">
-            <li><a class="header-address-item" href="tel:+380999091122">+38 (099) 909 11 22</a></li>
-            <li><a class="header-address-item" href="mailto:hello@ecotote.com">hello@ecotote.com</a></li>
-          </ul>
-        </address>
-      </div>
-
-      <button class="burger-btn" type="button" data-menu-open>
-        <svg class="burger-btn-icon" width="32" height="32">
-          <use href="/ecotote-g5/img/icons.svg#icon-burger"></use>
-        </svg>
-      </button>
+      <ul class="header-menu-list">
+        <li><a class="header-menu-item" href="#about">Про нас</a></li>
+        <li><a class="header-menu-item" href="#advantages">Переваги</a></li>
+        <li><a class="header-menu-item" href="#assortment">Асортимент</a></li>
+        <li><a class="header-menu-item" href="#gallery">Галерея</a></li>
+        <li><a class="header-menu-item" href="#feedbacks">Відгуки</a></li>
+        <li><a class="header-menu-item" href="#support">Контакти</a></li>
+      </ul>
     </nav>
+
+    <address class="header-address">
+      <ul class="header-address-list">
+        <li><a class="header-address-item" href="tel:+380999091122">+38 (099) 909 11 22</a></li>
+        <li><a class="header-address-item" href="mailto:hello@ecotote.com">hello@ecotote.com</a></li>
+      </ul>
+    </address>
+
+    <button class="burger-btn" type="button" data-menu-open>
+      <svg class="burger-btn-icon" width="32" height="32">
+        <use href="/ecotote-g5/img/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
+
   </div>
 
   <!-- modal window -->
   <div class="navbar-modal" data-menu>
     <div class="modal-content">
-      <div class="container header-container">
-        <nav class="nav">
+      <div class="container header-modal">
+        <nav class="modal-nav">
           <a class="nav-logo" href="">
             <svg class="nav-logo-icon">
               <use href="/ecotote-g5/img/logo.svg#icon-logo"></use>
             </svg>
           </a>
-          <button class="modal-close-btn" type="button" data-menu-close>
-            <svg class="modal-close-icon" width="32" height="32">
-              <use href="/ecotote-g5/img/icons.svg#icon-close"></use>
-            </svg>
-          </button>
         </nav>
+        <button class="modal-close-btn" type="button" data-menu-close>
+          <svg class="modal-close-icon" width="32" height="32">
+            <use href="/ecotote-g5/img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
       </div>
-      <div class="modal-header-menu">
-        <nav>
-          <ul class="modal-header-menu-list">
-            <li><a href="#about">Про нас</a></li>
-            <li><a href="#advantages">Переваги</a></li>
-            <li><a href="#assortment">Асортимент</a>
-            <li><a href="#gallery">Галерея</a></li>
-            <li><a href="#feedbacks">Відгуки</a></li>
-            <li><a href="#support">Контакти</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="modal-header-address">
-        <address>
-          <ul class="modal-header-address-list">
-            <li><a href="tel:+380999091122">+38 (099) 909 11 22</a></li>
-            <li><a href="mailto:hello@ecotote.com">hello@ecotote.com</a></li>
-          </ul>
-        </address>
-      </div>
+
+      <nav class="modal-header-menu">
+        <ul class="modal-header-menu-list">
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#advantages">Переваги</a></li>
+          <li><a href="#assortment">Асортимент</a>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#feedbacks">Відгуки</a></li>
+          <li><a href="#support">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <address class="modal-header-address">
+        <ul class="modal-header-address-list">
+          <li><a href="tel:+380999091122">+38 (099) 909 11 22</a></li>
+          <li><a href="mailto:hello@ecotote.com">hello@ecotote.com</a></li>
+        </ul>
+      </address>
+
     </div>
   </div>
 </header>
@@ -563,9 +558,9 @@
             </li>
           </ul>
         </div>
-        <h3 class="text-feedback">
+        <p class="text-feedback">
           Сумка дуже зручна та стильна, використовую щодня!
-        </h3>
+        </p>
         <p class="autor-feedback">Анна</p>
       </li>
       <li class="full-feedback">
@@ -598,9 +593,9 @@
             </li>
           </ul>
         </div>
-        <h3 class="text-feedback">
+        <p class="text-feedback">
           Відмінна якість матеріалів, приємно здивована.
-        </h3>
+        </p>
         <p class="autor-feedback">Ігор</p>
       </li>
       <li class="full-feedback">
@@ -633,9 +628,9 @@
             </li>
           </ul>
         </div>
-        <h3 class="text-feedback">
+        <p class="text-feedback">
           Сумка повністю відповідає опису, рекомендую!
-        </h3>
+        </p>
         <p class="autor-feedback">Олена</p>
       </li>
       <li class="full-feedback">
@@ -668,7 +663,7 @@
             </li>
           </ul>
         </div>
-        <h3 class="text-feedback">Швидка доставка та гарне обслуговування.</h3>
+        <p class="text-feedback">Швидка доставка та гарне обслуговування.</p>
         <p class="autor-feedback">Сергій</p>
       </li>
     </ul>
