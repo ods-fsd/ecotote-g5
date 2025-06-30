@@ -31,12 +31,12 @@
 }
 
 .hero-button {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 23px;
+  padding: 12px 24px;
   text-align: center;
-  max-width: 288px;
+  min-width: 288px;
   height: 50px;
   border: 1px solid #030a06;
   border-radius: 6px;
@@ -99,7 +99,7 @@
   }
 
   .hero-button {
-    max-width: 148px;
+    min-width: 148px;
     margin: unset;
   }
 
