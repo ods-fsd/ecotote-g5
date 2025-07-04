@@ -11,7 +11,7 @@
       rgba(23, 23, 33, 0.3),
       rgba(23, 23, 33, 0.3)
     ),
-    url(/img/about/about-mob.jpg);
+    url(/src/public/img/about/about-mob.jpg);
 }
 @media screen and (min-resolution: 2x) {
   .about-section {
@@ -19,7 +19,7 @@
         rgba(23, 23, 33, 0.3),
         rgba(23, 23, 33, 0.3)
       ),
-      url(/img/about/about-mob-x2.jpg);
+      url(/src/public/img/about/about-mob-x2.jpg);
   }
 }
 
@@ -62,7 +62,7 @@
         rgba(23, 23, 33, 0.3),
         rgba(23, 23, 33, 0.3)
       ),
-      url(/img/about/about-tab.jpg);
+      url(/src/public/img/about/about-tab.jpg);
   }
 
   @media screen and (min-resolution: 2x) {
@@ -71,7 +71,7 @@
           rgba(23, 23, 33, 0.3),
           rgba(23, 23, 33, 0.3)
         ),
-        url(/img/about/about-tab-x2.jpg);
+        url(/src/public/img/about/about-tab-x2.jpg);
     }
   }
 
@@ -101,7 +101,7 @@
         rgba(23, 23, 33, 0.3),
         rgba(23, 23, 33, 0.3)
       ),
-      url(/img/about/about-nout.jpg);
+      url(/src/public/img/about/about-nout.jpg);
   }
 
   @media screen and (min-resolution: 2x) {
@@ -110,7 +110,7 @@
           rgba(23, 23, 33, 0.3),
           rgba(23, 23, 33, 0.3)
         ),
-        url(/img/about/about-nout-x2.jpg);
+        url(/src/public/img/about/about-nout-x2.jpg);
     }
   }
 
